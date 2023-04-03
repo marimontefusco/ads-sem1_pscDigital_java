@@ -1,11 +1,12 @@
-package desafios;
+package exercicios.exerciciosCondicional;
 
 import java.util.Scanner;
 
 /* Faça um programa que leia um número inteiro e retorna ao usuário uma 
 mensagem informando se o número é par ou ímpar e positivo ou negativo 
- */
 
+Lógica condicional encadeada -> um if dentro de outro
+ */
 public class Condicional04 {
     public static void main(String[] args) {
         

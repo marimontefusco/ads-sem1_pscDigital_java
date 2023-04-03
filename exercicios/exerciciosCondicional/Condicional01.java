@@ -1,4 +1,4 @@
-package desafios;
+package exercicios.exerciciosCondicional;
 
 /* Tendo as variáveis salario, ir e salliq, e considerando os valores da 
 tabela, informe se as expressões a, b e c são verdadeiras ou falsas
@@ -10,7 +10,7 @@ public class Condicional01 {
         //expressão 1a       
         double salarioA = 100.0, 
                irA = 0.0,
-               salLiqA = 100.0 ;
+               salLiqA = salarioA - irA;
                        
         if(salLiqA >= 100) {
             System.out.println("1a: Verdadeiro"); 
@@ -23,7 +23,7 @@ public class Condicional01 {
         //expressão 1b       
         double salarioB = 200.0, 
                irB = 10.0,
-               salLiqB = 190.0 ;
+               salLiqB = salarioB - irB;
         
         if(salLiqB < 190) {
             System.out.println("1b: Verdadeiro");  
@@ -36,7 +36,7 @@ public class Condicional01 {
          //expressão 1c       
         double salarioC = 300.0, 
                irC = 15.0,
-               salLiqC = 285.0 ;
+               salLiqC = salarioC - irC;
         
         if(salLiqC == salarioC + irC) {
             System.out.println("1c: Verdadeiro \n\n"); 

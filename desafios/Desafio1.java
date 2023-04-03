@@ -1,4 +1,4 @@
-package desafios;
+package exerciciosCondicional;
 import java.lang.Integer;
 
 //Calcule e mostre a soma do menor valor inteiro com o maior valor inteiro do Java

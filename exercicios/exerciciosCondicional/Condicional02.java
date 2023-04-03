@@ -1,4 +1,4 @@
-package desafios;
+package exercicios.exerciciosCondicional;
 
 /* Sabendo que a = 3, b = 7 e c = 4, 
 informe se as expressões abaixo são verdadeiras:
@@ -42,7 +42,7 @@ public class Condicional02 {
             System.out.println("A expressão D é verdadeira");
             
         } else {
-             System.out.println("A expressão D é falsa");
+            System.out.println("A expressão D é falsa");
         }
         
         //expressão E:
@@ -50,7 +50,7 @@ public class Condicional02 {
             System.out.println("A expressão E é verdadeira \n\n");
             
         } else {
-             System.out.println("A expressão E é falsa \n\n");
+            System.out.println("A expressão E é falsa \n\n");
         }
         
     }

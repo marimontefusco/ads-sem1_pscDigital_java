@@ -1,7 +1,7 @@
-package desafios;
+package exercicios.exerciciosCondicional;
 
-/* Sabendo que a = 5, b = 4 e c = 3 e d = 6, informe se 
-as expressões abaixo são verdadeiras:
+/* Sabendo que a = 5, b = 4 e c = 3 e d = 6, 
+informe se as expressões abaixo são verdadeiras:
     a.(a > c) AND (c <= d)
     b.(a + b) > 10 OR (a + b) == (c + +d)
     c.(a >= c) AND (d >= c)
@@ -15,7 +15,7 @@ public class Condicional03 {
             c = 3,
             d = 6;
         
-        //Expressão a:
+        //Expressão a: true
         if( a > c && c <= d ) {
             System.out.println("Expressão A é verdadeira");
              
@@ -24,8 +24,8 @@ public class Condicional03 {
             
         }
         
-        //Expressão b:
-        if ((a + b) > 10 || (a + b) == (c + ++d)) {
+        //Expressão b: true
+        if ((a + b) > 10 || (a + b) == (c + +d)) { //+d ->>> operador unário
             System.out.println("Expressão B é verdadeira");
              
         } else {
@@ -33,7 +33,7 @@ public class Condicional03 {
             
         }
         
-        //Expressão c:
+        //Expressão c: true
         if (a >= c && d >= c ){
             System.out.println("Expressão C é verdadeira \n\n");
              
@@ -45,3 +45,4 @@ public class Condicional03 {
     }
         
 }
+  

@@ -1,4 +1,4 @@
-package desafios;
+package exercicios.exerciciosCondicional;
 
 import java.util.Scanner;
 
@@ -46,7 +46,8 @@ public class Condicional06 {
             }
             
         }
+        
+        scan.close();
           
-    }
-    
+    }   
 }
