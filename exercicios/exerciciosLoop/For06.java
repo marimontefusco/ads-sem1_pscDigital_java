@@ -24,6 +24,7 @@ public class For06 {
         System.out.println("\n----------------------------------------\n");
         System.out.printf("Dos 10 números digitados, \n%d são números pares "
             + "e %d são números ímpares \n", par, impar);
+        System.out.println("\n----------------------------------------\n");
     
         scan.close();
         
